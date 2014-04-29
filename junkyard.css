@@ -3,7 +3,7 @@
 	text-align: center;
 	font-family: "rainfall";
 	font-size: 100pt;
-	color: 0xffffff;
+	color: rgb(255, 255, 255)
 }
 
 @font-face {
