@@ -1,4 +1,10 @@
 #title{
 	width: 100%;
 	text-align: center;
+	font-family: "rainfall";
 }
+
+@font-face {
+  font-family: "rainfall";
+  src: url("rainfall.otf");
+ }
