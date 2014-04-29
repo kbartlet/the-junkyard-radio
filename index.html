@@ -16,14 +16,14 @@
     <h1 id = "title">The Junkyard</h1>
 
     <!--Show 1 button-->
-    <button type="button" id = "show1button" class="play btn btn-default btn-lg">
+    <!-- <button type="button" id = "show1button" class="play btn btn-default btn-lg">
     <span class="glyphicon glyphicon-play"></span> Show 1
     </button>
-
+ -->
     <!--Show 2 button-->
-    <button type="button" id = "show2button" class="play btn btn-default btn-lg">
+    <!-- <button type="button" id = "show2button" class="play btn btn-default btn-lg">
     <span class="glyphicon glyphicon-play"></span> Show 2
-    </button>
+    </button> -->
 
     <a href="http://soundcloud.com/foofighters/rope" class="play stratus">Foo Fighters - Rope</a>
 
@@ -41,14 +41,14 @@
     <!-- Button Handler-->
     <script type="text/javascript">
       $(document).ready(function() {
-        $(".play").click(function() {
+        //$(".play").click(function() {
           $.stratus({
             links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
             user: false,
             auto_play: true,
             stats: false
           });
-        });
+        //});
       });
     </script>​​​​
 
