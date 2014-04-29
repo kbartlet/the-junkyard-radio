@@ -2,9 +2,15 @@
 	width: 100%;
 	text-align: center;
 	font-family: "rainfall";
+	font-size: 100pt;
+	color: 0xffffff;
 }
 
 @font-face {
   font-family: "rainfall";
   src: url("rainfall.otf");
+ }
+
+ body {
+ 	background-color: rgb(51,51,51);
  }
