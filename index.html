@@ -29,14 +29,29 @@
     <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
 
     <!-- Configure Stratus-->
-    <script type="text/javascript">
-      $(document).ready(function(){
+  <!-- <script type="text/javascript">
+  //     $(document).ready(function(){
+  //       $.stratus({
+  //         links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
+  //         user: false
+  //       });
+  //     });
+  // </script>-->
+
+  <!-- Button Handler -->
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("a").click(function() {
         $.stratus({
           links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
           user: false
         });
+         // var id = $(this).attribute("id");
+         // $("pages id").css("display", "none");
+         // $("pages id:eq("+id+")").css("display", "block");
       });
-  </script>
+    });
+  </script>​​​​
 
   </body>
 </html>
