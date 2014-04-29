@@ -15,7 +15,15 @@
   <body>
     <h1 id = "title">The Junkyard</h1>
 
-    <a id = "show1button" class="btn btn-outline-inverse btn-lg">Show 1</a>
+    <!--Show 1 button-->
+    <button type="button" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-play"></span> Show 1
+    </button>
+
+    <!--Show 2 button-->
+    <button type="button" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-play"></span> Show 2
+    </button>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
@@ -28,32 +36,33 @@
     <!-- Main Stratus player -->
     <script type="text/javascript" src="http://stratus.sc/stratus.js"></script>
 
-    <!-- Configure Stratus-->
-  <!-- <script type="text/javascript">
-  //     $(document).ready(function(){
-  //       $.stratus({
-  //         links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
-  //         user: false
-  //       });
-  //     });
-  // </script>-->
-
-  <!-- Button Handler -->
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $("a").click(function() {
-        $.stratus({
-          links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
-          user: false,
-          auto_play: true,
-          stats: false
+    <!-- Button Handler Show 1-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("button #show1button").click(function() {
+          $.stratus({
+            links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
+            user: false,
+            auto_play: true,
+            stats: false
+          });
         });
-         // var id = $(this).attribute("id");
-         // $("pages id").css("display", "none");
-         // $("pages id:eq("+id+")").css("display", "block");
       });
-    });
-  </script>​​​​
+    </script>​​​​
+
+      <!-- Button Handler Show 2-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("button #show1button").click(function() {
+          $.stratus({
+            links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
+            user: false,
+            auto_play: true,
+            stats: false
+          });
+        });
+      });
+    </script>​​​​
 
   </body>
 </html>
