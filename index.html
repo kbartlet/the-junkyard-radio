@@ -16,12 +16,12 @@
     <h1 id = "title">The Junkyard</h1>
 
     <!--Show 1 button-->
-    <button type="button" id = "show1button" class="btn btn-default btn-lg">
+    <button type="button" id = "show1button" class="play btn btn-default btn-lg">
     <span class="glyphicon glyphicon-play"></span> Show 1
     </button>
 
     <!--Show 2 button-->
-    <button type="button" id = "show2button" class="btn btn-default btn-lg">
+    <button type="button" id = "show2button" class="play btn btn-default btn-lg">
     <span class="glyphicon glyphicon-play"></span> Show 2
     </button>
 
@@ -39,7 +39,7 @@
     <!-- Button Handler Show 1-->
     <script type="text/javascript">
       $(document).ready(function() {
-        $("#show1button").click(function() {
+        $(".play").click(function() {
           $.stratus({
             links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
             user: false,
@@ -53,7 +53,7 @@
       <!-- Button Handler Show 2-->
     <script type="text/javascript">
       $(document).ready(function() {
-        $("#show2button").click(function() {
+        $(".play").click(function() {
           $.stratus({
             links: 'https://soundcloud.com/keenan-bartlett/highpriestofboprevised-kcb',
             user: false,
